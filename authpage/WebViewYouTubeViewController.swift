@@ -15,7 +15,7 @@ class WebViewYouTubeViewController: UIViewController {
         super.viewDidLoad()
 
         
-        YouTubeView.load(URLRequest(url: URL(string: "https://www.google.com")!))
+        YouTubeView.load(URLRequest(url: URL(string: "https://www.youtube.com")!))
     }
     
 
