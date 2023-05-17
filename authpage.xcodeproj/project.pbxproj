@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8B898CDD2A150578000974EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CDC2A150578000974EC /* AppDelegate.swift */; };
 		8B898CDF2A150578000974EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CDE2A150578000974EC /* SceneDelegate.swift */; };
-		8B898CE12A150578000974EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CE02A150578000974EC /* ViewController.swift */; };
+		8B898CE12A150578000974EC /* AuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CE02A150578000974EC /* AuthPage.swift */; };
 		8B898CE42A150578000974EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B898CE22A150578000974EC /* Main.storyboard */; };
 		8B898CE62A150579000974EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B898CE52A150579000974EC /* Assets.xcassets */; };
 		8B898CE92A150579000974EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B898CE72A150579000974EC /* LaunchScreen.storyboard */; };
+		8B898CF32A150F88000974EC /* WebViewYouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B898CD92A150578000974EC /* authpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = authpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B898CDC2A150578000974EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B898CDE2A150578000974EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B898CE02A150578000974EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B898CE02A150578000974EC /* AuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPage.swift; sourceTree = "<group>"; };
 		8B898CE32A150578000974EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B898CE52A150579000974EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B898CE82A150579000974EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B898CEA2A150579000974EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewYouTubeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				8B898CDC2A150578000974EC /* AppDelegate.swift */,
 				8B898CDE2A150578000974EC /* SceneDelegate.swift */,
-				8B898CE02A150578000974EC /* ViewController.swift */,
+				8B898CE02A150578000974EC /* AuthPage.swift */,
 				8B898CE22A150578000974EC /* Main.storyboard */,
+				8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */,
 				8B898CE52A150579000974EC /* Assets.xcassets */,
 				8B898CE72A150579000974EC /* LaunchScreen.storyboard */,
 				8B898CEA2A150579000974EC /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B898CE12A150578000974EC /* ViewController.swift in Sources */,
+				8B898CE12A150578000974EC /* AuthPage.swift in Sources */,
+				8B898CF32A150F88000974EC /* WebViewYouTubeViewController.swift in Sources */,
 				8B898CDD2A150578000974EC /* AppDelegate.swift in Sources */,
 				8B898CDF2A150578000974EC /* SceneDelegate.swift in Sources */,
 			);
