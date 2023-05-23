@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3pE-nv-nLN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
@@ -67,6 +67,9 @@
                                         <rect key="frame" x="0.0" y="96.5" width="288" height="31.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Log In"/>
+                                        <connections>
+                                            <segue destination="tNg-Hv-mBF" kind="show" id="ONW-zZ-XPI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -97,7 +100,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <color key="backgroundColor" red="0.89875821201071449" green="0.90265942643387154" blue="0.87038542165156563" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kg1-bo-4sO" secondAttribute="trailing" constant="16" id="4hQ-Di-CNj"/>
                             <constraint firstItem="Kg1-bo-4sO" firstAttribute="top" secondItem="0UB-3c-haf" secondAttribute="bottom" constant="16" id="ScA-fJ-RKO"/>
@@ -113,13 +116,65 @@
             </objects>
             <point key="canvasLocation" x="128" y="2"/>
         </scene>
+        <!--Main Page-->
+        <scene sceneID="o8K-sA-fel">
+            <objects>
+                <viewController id="tNg-Hv-mBF" customClass="MainPage" customModule="authpage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7OK-eD-BIU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kn-Um-nHx">
+                                <rect key="frame" x="120" y="388" width="80" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Logout">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vP0-oa-hkp">
+                                <rect key="frame" x="100" y="127" width="120" height="119"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyo-WE-jwK">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="35.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GN-kk-rXe">
+                                        <rect key="frame" x="33" y="65.5" width="54" height="53.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vP0-oa-hkp" secondAttribute="height" multiplier="129:128" id="zMO-M2-A3e"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tzU-Ow-N3o"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="2Kn-Um-nHx" firstAttribute="top" secondItem="vP0-oa-hkp" secondAttribute="bottom" constant="150" id="6yE-nh-btW"/>
+                            <constraint firstItem="tzU-Ow-N3o" firstAttribute="trailing" secondItem="vP0-oa-hkp" secondAttribute="trailing" constant="100" id="AGV-fq-dH3"/>
+                            <constraint firstItem="vP0-oa-hkp" firstAttribute="leading" secondItem="tzU-Ow-N3o" secondAttribute="leading" constant="100" id="Bz6-Sp-Dyk"/>
+                            <constraint firstItem="2Kn-Um-nHx" firstAttribute="leading" secondItem="tzU-Ow-N3o" secondAttribute="leading" constant="120" id="Ody-xO-vmz"/>
+                            <constraint firstItem="tzU-Ow-N3o" firstAttribute="trailing" secondItem="2Kn-Um-nHx" secondAttribute="trailing" constant="120" id="iU5-m3-6SY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fin-TL-PIi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNg-9O-3xK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="2"/>
+        </scene>
     </scenes>
     <resources>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -14,6 +14,7 @@
 		8B898CE62A150579000974EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B898CE52A150579000974EC /* Assets.xcassets */; };
 		8B898CE92A150579000974EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B898CE72A150579000974EC /* LaunchScreen.storyboard */; };
 		8B898CF32A150F88000974EC /* WebViewYouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */; };
+		8B9694AF2A1CFFDD00E42DEF /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9694AE2A1CFFDD00E42DEF /* MainPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8B898CE82A150579000974EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B898CEA2A150579000974EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewYouTubeViewController.swift; sourceTree = "<group>"; };
+		8B9694AE2A1CFFDD00E42DEF /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8B898CDE2A150578000974EC /* SceneDelegate.swift */,
 				8B898CE02A150578000974EC /* AuthPage.swift */,
 				8B898CE22A150578000974EC /* Main.storyboard */,
+				8B9694AE2A1CFFDD00E42DEF /* MainPage.swift */,
 				8B898CF22A150F88000974EC /* WebViewYouTubeViewController.swift */,
 				8B898CE52A150579000974EC /* Assets.xcassets */,
 				8B898CE72A150579000974EC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9694AF2A1CFFDD00E42DEF /* MainPage.swift in Sources */,
 				8B898CE12A150578000974EC /* AuthPage.swift in Sources */,
 				8B898CF32A150F88000974EC /* WebViewYouTubeViewController.swift in Sources */,
 				8B898CDD2A150578000974EC /* AppDelegate.swift in Sources */,
