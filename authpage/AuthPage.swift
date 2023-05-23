@@ -15,8 +15,6 @@ class AuthPage: UIViewController {
     private let user = "1"
     private let password = "2"
     
-    //    override func viewDidLoad() {
-    //          super.viewDidLoad()
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let welcomeVC = segue.destination as? MainPage else { return }
         welcomeVC.user = user

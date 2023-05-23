@@ -86,7 +86,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="forgotRegisterDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hC6-Pa-ZaN"/>
+                                                    <action selector="forgotRegisterDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j9J-bu-zSg"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFn-YV-55q">
@@ -96,7 +96,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="forgotRegisterDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6l-IP-ekB"/>
+                                                    <action selector="forgotRegisterDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="db4-4d-Fd5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
