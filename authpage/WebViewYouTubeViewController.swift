@@ -6,16 +6,16 @@
 //
 
 import UIKit
-import WebKit
+//import WebKit
 
 class WebViewYouTubeViewController: UIViewController {
 
-    @IBOutlet var YouTubeView: WKWebView!
+//    @IBOutlet var YouTubeView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        YouTubeView.load(URLRequest(url: URL(string: "https://www.youtube.com")!))
+//        YouTubeView.load(URLRequest(url: URL(string: "https://www.youtube.com")!))
     }
     
 
