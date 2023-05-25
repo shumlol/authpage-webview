@@ -73,7 +73,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Log In"/>
                                         <connections>
-                                            <action selector="loginPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajr-Vl-agx"/>
+                                            <action selector="loginPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="WMG-Mw-0Ri"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Kg1-bo-4sO">

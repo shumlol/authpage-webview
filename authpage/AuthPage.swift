@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AuthPage: UIViewController {
+final class AuthPage: UIViewController {
     
     @IBOutlet var userNameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
